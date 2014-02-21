@@ -6,12 +6,12 @@ front-end-skills
 ###性能优化###
 --
 UL有 10000 个LI子元素，如何将这 10000 个LI颠倒顺序? 摘自[V2EX](http://v2ex.com/t/100982)
-    Css方式:
+Css方式:
 ```css
     ul {transform: rotate(180deg)} 
     li {transform: rotate(180deg)}
 ```
-    Javascript方式:
+Javascript方式:
 ```javascript
     [].slice.call(nodeList).reverse(); //循环一次组成字符串插回 ul 节点
 ```
