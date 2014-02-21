@@ -19,3 +19,4 @@ Javascript:
     [].slice.call(nodeList).reverse(); //循环一次组成字符串插回 ul 节点
 ```
 
+==
