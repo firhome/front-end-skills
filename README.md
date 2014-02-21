@@ -11,7 +11,6 @@ front-end-skills
     ul {transform: rotate(180deg)} 
     li {transform: rotate(180deg)}
 ```
-
 ```javascript
     //Javascript方式:
     [].slice.call(nodeList).reverse(); //循环一次组成字符串插回 ul 节点
