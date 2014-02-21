@@ -5,11 +5,13 @@ front-end-skills
 
 #性能优化#
 
-`<ul>有 10000 个<li>子元素，如何将这 10000 个<li>颠倒顺序? 摘自 v2ex[http://v2ex.com/t/100982|link]
+<ul>有 10000 个<li>子元素，如何将这 10000 个<li>颠倒顺序? 摘自 v2ex[http://v2ex.com/t/100982|link]
 
 CSS:
+
     ul {transform: rotate(180deg)} 
     li {transform: rotate(180deg)}
     
 Javascript:
+
     [].slice.call(nodeList).reverse(); 循环一次组成字符串插回 ul 节点
