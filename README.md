@@ -25,5 +25,5 @@ front-end-skills
     </div>
 ```
 ```css
-    .css_3:hover img {transform: scale(1.1);}
+    .css_3:hover img {transform: scale(1.1);} /* hover时 img放大 可以有很多效果,如改变透明度等等 */
 ```
