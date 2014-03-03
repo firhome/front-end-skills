@@ -24,7 +24,6 @@ front-end-skills
         <img src="1.jpg />
     </div>
 ```
-
 ```css
     .css_3:hover img {transform: scale(1.1);}
 ```
