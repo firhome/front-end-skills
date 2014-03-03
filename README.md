@@ -16,3 +16,15 @@ front-end-skills
     [].slice.call(nodeList).reverse(); //循环一次组成字符串插回 ul 节点
 ```
 
+###CSS效果###
+--
+>**利用css3动画增强页面效果**
+```html
+    <div class="css_3">
+        <img src="1.jpg />
+    </div>
+```
+
+```css
+    .css_3:hover img {transform: scale(1.1);}
+```
